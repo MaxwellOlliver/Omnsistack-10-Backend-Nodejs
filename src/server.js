@@ -9,7 +9,7 @@ const app = express();
 const server = http.Server(app);
 setWebSocket(server);
 
-mongoose.connect('mongodb+srv://maxuser:maol963662339@omnistack-pqlxe.mongodb.net/omnistack10?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://<username>:<password>@omnistack-pqlxe.mongodb.net/omnistack10?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
